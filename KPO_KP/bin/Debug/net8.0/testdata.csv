@@ -1,0 +1,31 @@
+###BankAccounts
+Id,Name,Balance
+1,Main Account,2000
+2,Savings,5000
+3,Credit Card,-300
+4,Vacation Fund,1500
+5,Business Account,10000
+
+###Categories
+Id,Type,Name
+1,Income,Salary
+2,Income,Freelance
+3,Expense,Groceries
+4,Expense,Rent
+5,Expense,Entertainment
+6,Expense,Transport
+
+###Operations
+Id,Type,BankAccountId,Amount,Date,Description,CategoryId
+1,Income,1,1500,2025-04-01,Monthly salary,1
+2,Income,1,200,2025-04-05,Freelance job,2
+3,Expense,1,100,2025-04-06,Groceries,3
+4,Expense,2,500,2025-04-10,Vacation booking,5
+5,Expense,3,50,2025-04-10,Credit card fee,6
+6,Income,5,2000,2025-04-11,Client payment,2
+7,Expense,1,700,2025-04-15,Rent payment,4
+8,Expense,2,50,2025-04-16,Movies,5
+9,Expense,1,60,2025-04-17,Taxi,6
+10,Income,2,300,2025-04-20,Bonus interest,1
+11,Expense,4,100,2025-04-22,New beach umbrella,5
+12,Expense,5,120,2025-04-25,Office supplies,3

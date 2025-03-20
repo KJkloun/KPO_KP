@@ -1,0 +1,32 @@
+{
+  "BankAccounts": [
+    {
+      "Id": 87,
+      "Name": "type",
+      "Balance": 13000
+    },
+    {
+      "Id": 9,
+      "Name": "redfd",
+      "Balance": 90
+    }
+  ],
+  "Categories": [
+    {
+      "Id": 87,
+      "Type": 0,
+      "Name": "buy car"
+    }
+  ],
+  "Operations": [
+    {
+      "Id": 56,
+      "Type": 0,
+      "BankAccountId": 87,
+      "Amount": 5000,
+      "Date": "2025-03-07T00:00:00",
+      "Description": "\u0437\u043F",
+      "CategoryId": 2
+    }
+  ]
+}

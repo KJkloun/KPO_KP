@@ -1,0 +1,17 @@
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/KPO_KP.csproj.AssemblyReference.cache
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/KPO_KP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/KPO_KP.AssemblyInfoInputs.cache
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/KPO_KP.AssemblyInfo.cs
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/KPO_KP.csproj.CoreCompileInputs.cache
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/bin/Debug/net8.0/KPO_KP
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/bin/Debug/net8.0/KPO_KP.deps.json
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/bin/Debug/net8.0/KPO_KP.runtimeconfig.json
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/bin/Debug/net8.0/KPO_KP.dll
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/bin/Debug/net8.0/KPO_KP.pdb
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/bin/Debug/net8.0/YamlDotNet.dll
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/KPO_KP.csproj.Up2Date
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/KPO_KP.dll
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/refint/KPO_KP.dll
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/KPO_KP.pdb
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/KPO_KP.genruntimeconfig.cache
+/Users/kj/RiderProjects/KPO_KP/KPO_KP/obj/Debug/net8.0/ref/KPO_KP.dll

@@ -1,0 +1,31 @@
+{
+  "BankAccounts": [
+    { "Id": 1, "Name": "Main Account",       "Balance": 2000 },
+    { "Id": 2, "Name": "Savings",            "Balance": 5000 },
+    { "Id": 3, "Name": "Credit Card",        "Balance": -300 },
+    { "Id": 4, "Name": "Vacation Fund",      "Balance": 1500 },
+    { "Id": 5, "Name": "Business Account",   "Balance": 10000 }
+  ],
+  "Categories": [
+    { "Id": 1, "Type": "Income",  "Name": "Salary" },
+    { "Id": 2, "Type": "Income",  "Name": "Freelance" },
+    { "Id": 3, "Type": "Expense", "Name": "Groceries" },
+    { "Id": 4, "Type": "Expense", "Name": "Rent" },
+    { "Id": 5, "Type": "Expense", "Name": "Entertainment" },
+    { "Id": 6, "Type": "Expense", "Name": "Transport" }
+  ],
+  "Operations": [
+    { "Id": 1,  "Type": "Income",  "BankAccountId": 1, "Amount": 1500, "Date": "2025-04-01T00:00:00", "Description": "Monthly salary",    "CategoryId": 1 },
+    { "Id": 2,  "Type": "Income",  "BankAccountId": 1, "Amount": 200,  "Date": "2025-04-05T00:00:00", "Description": "Freelance job",     "CategoryId": 2 },
+    { "Id": 3,  "Type": "Expense", "BankAccountId": 1, "Amount": 100,  "Date": "2025-04-06T00:00:00", "Description": "Groceries",         "CategoryId": 3 },
+    { "Id": 4,  "Type": "Expense", "BankAccountId": 2, "Amount": 500,  "Date": "2025-04-10T00:00:00", "Description": "Vacation booking",   "CategoryId": 5 },
+    { "Id": 5,  "Type": "Expense", "BankAccountId": 3, "Amount": 50,   "Date": "2025-04-10T00:00:00", "Description": "Credit card fee",    "CategoryId": 6 },
+    { "Id": 6,  "Type": "Income",  "BankAccountId": 5, "Amount": 2000, "Date": "2025-04-11T00:00:00", "Description": "Client payment",     "CategoryId": 2 },
+    { "Id": 7,  "Type": "Expense", "BankAccountId": 1, "Amount": 700,  "Date": "2025-04-15T00:00:00", "Description": "Rent payment",       "CategoryId": 4 },
+    { "Id": 8,  "Type": "Expense", "BankAccountId": 2, "Amount": 50,   "Date": "2025-04-16T00:00:00", "Description": "Movies",            "CategoryId": 5 },
+    { "Id": 9,  "Type": "Expense", "BankAccountId": 1, "Amount": 60,   "Date": "2025-04-17T00:00:00", "Description": "Taxi",              "CategoryId": 6 },
+    { "Id": 10, "Type": "Income",  "BankAccountId": 2, "Amount": 300,  "Date": "2025-04-20T00:00:00", "Description": "Bonus interest",     "CategoryId": 1 },
+    { "Id": 11, "Type": "Expense", "BankAccountId": 4, "Amount": 100,  "Date": "2025-04-22T00:00:00", "Description": "New beach umbrella", "CategoryId": 5 },
+    { "Id": 12, "Type": "Expense", "BankAccountId": 5, "Amount": 120,  "Date": "2025-04-25T00:00:00", "Description": "Office supplies",    "CategoryId": 3 }
+  ]
+}

@@ -1,0 +1,122 @@
+BankAccounts:
+- Id: 1
+  Name: Main Account
+  Balance: 2000
+- Id: 2
+  Name: Savings
+  Balance: 5000
+- Id: 3
+  Name: Credit Card
+  Balance: -300
+- Id: 4
+  Name: Vacation Fund
+  Balance: 1500
+- Id: 5
+  Name: Business Account
+  Balance: 10000
+
+Categories:
+- Id: 1
+  Type: Income
+  Name: Salary
+- Id: 2
+  Type: Income
+  Name: Freelance
+- Id: 3
+  Type: Expense
+  Name: Groceries
+- Id: 4
+  Type: Expense
+  Name: Rent
+- Id: 5
+  Type: Expense
+  Name: Entertainment
+- Id: 6
+  Type: Expense
+  Name: Transport
+
+Operations:
+- Id: 1
+  Type: Income
+  BankAccountId: 1
+  Amount: 1500
+  Date: 01.04.2025
+  Description: Monthly salary
+  CategoryId: 1
+- Id: 2
+  Type: Income
+  BankAccountId: 1
+  Amount: 200
+  Date: 05.04.2025
+  Description: Freelance job
+  CategoryId: 2
+- Id: 3
+  Type: Expense
+  BankAccountId: 1
+  Amount: 100
+  Date: 06.04.2025
+  Description: Groceries
+  CategoryId: 3
+- Id: 4
+  Type: Expense
+  BankAccountId: 2
+  Amount: 500
+  Date: 10.04.2025
+  Description: Vacation booking
+  CategoryId: 5
+- Id: 5
+  Type: Expense
+  BankAccountId: 3
+  Amount: 50
+  Date: 10.04.2025
+  Description: Credit card fee
+  CategoryId: 6
+- Id: 6
+  Type: Income
+  BankAccountId: 5
+  Amount: 2000
+  Date: 11.04.2025
+  Description: Client payment
+  CategoryId: 2
+- Id: 7
+  Type: Expense
+  BankAccountId: 1
+  Amount: 700
+  Date: 15.04.2025
+  Description: Rent payment
+  CategoryId: 4
+- Id: 8
+  Type: Expense
+  BankAccountId: 2
+  Amount: 50
+  Date: 16.04.2025
+  Description: Movies
+  CategoryId: 5
+- Id: 9
+  Type: Expense
+  BankAccountId: 1
+  Amount: 60
+  Date: 17.04.2025
+  Description: Taxi
+  CategoryId: 6
+- Id: 10
+  Type: Income
+  BankAccountId: 2
+  Amount: 300
+  Date: 20.04.2025
+  Description: Bonus interest
+  CategoryId: 1
+- Id: 11
+  Type: Expense
+  BankAccountId: 4
+  Amount: 100
+  Date: 22.04.2025
+  Description: New beach umbrella
+  CategoryId: 5
+- Id: 12
+  Type: Expense
+  BankAccountId: 5
+  Amount: 120
+  Date: 25.04.2025
+  Description: Office supplies
+  CategoryId: 3

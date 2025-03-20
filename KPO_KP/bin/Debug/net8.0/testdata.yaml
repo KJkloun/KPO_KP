@@ -1,0 +1,122 @@
+bankAccounts:
+  - id: 1
+    name: "Main Account"
+    balance: 2000
+  - id: 2
+    name: "Savings"
+    balance: 5000
+  - id: 3
+    name: "Credit Card"
+    balance: -300
+  - id: 4
+    name: "Vacation Fund"
+    balance: 1500
+  - id: 5
+    name: "Business Account"
+    balance: 10000
+
+categories:
+  - id: 1
+    type: "Income"
+    name: "Salary"
+  - id: 2
+    type: "Income"
+    name: "Freelance"
+  - id: 3
+    type: "Expense"
+    name: "Groceries"
+  - id: 4
+    type: "Expense"
+    name: "Rent"
+  - id: 5
+    type: "Expense"
+    name: "Entertainment"
+  - id: 6
+    type: "Expense"
+    name: "Transport"
+
+operations:
+  - id: 1
+    type: "Income"
+    bankAccountId: 1
+    amount: 1500
+    date: "2025-04-01"
+    description: "Monthly salary"
+    categoryId: 1
+  - id: 2
+    type: "Income"
+    bankAccountId: 1
+    amount: 200
+    date: "2025-04-05"
+    description: "Freelance job"
+    categoryId: 2
+  - id: 3
+    type: "Expense"
+    bankAccountId: 1
+    amount: 100
+    date: "2025-04-06"
+    description: "Groceries"
+    categoryId: 3
+  - id: 4
+    type: "Expense"
+    bankAccountId: 2
+    amount: 500
+    date: "2025-04-10"
+    description: "Vacation booking"
+    categoryId: 5
+  - id: 5
+    type: "Expense"
+    bankAccountId: 3
+    amount: 50
+    date: "2025-04-10"
+    description: "Credit card fee"
+    categoryId: 6
+  - id: 6
+    type: "Income"
+    bankAccountId: 5
+    amount: 2000
+    date: "2025-04-11"
+    description: "Client payment"
+    categoryId: 2
+  - id: 7
+    type: "Expense"
+    bankAccountId: 1
+    amount: 700
+    date: "2025-04-15"
+    description: "Rent payment"
+    categoryId: 4
+  - id: 8
+    type: "Expense"
+    bankAccountId: 2
+    amount: 50
+    date: "2025-04-16"
+    description: "Movies"
+    categoryId: 5
+  - id: 9
+    type: "Expense"
+    bankAccountId: 1
+    amount: 60
+    date: "2025-04-17"
+    description: "Taxi"
+    categoryId: 6
+  - id: 10
+    type: "Income"
+    bankAccountId: 2
+    amount: 300
+    date: "2025-04-20"
+    description: "Bonus interest"
+    categoryId: 1
+  - id: 11
+    type: "Expense"
+    bankAccountId: 4
+    amount: 100
+    date: "2025-04-22"
+    description: "New beach umbrella"
+    categoryId: 5
+  - id: 12
+    type: "Expense"
+    bankAccountId: 5
+    amount: 120
+    date: "2025-04-25"
+    description: "Office supplies"
+    categoryId: 3

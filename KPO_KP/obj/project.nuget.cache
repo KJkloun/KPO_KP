@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cg4VaBP1ju0=",
+  "success": true,
+  "projectFilePath": "/Users/kj/RiderProjects/KPO_KP/KPO_KP/KPO_KP.csproj",
+  "expectedPackageFiles": [
+    "/Users/kj/.nuget/packages/yamldotnet/16.3.0/yamldotnet.16.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
